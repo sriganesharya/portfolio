@@ -1,0 +1,76 @@
+{
+  "personal": {
+    "name": "Sri Ganesh Arya Mahendra",
+    "title": "Software Engineer",
+    "tagline": "Building secure, scalable enterprise solutions with Spring Boot and microservices",
+    "email": "sriganesharya@gmail.com",
+    "phone": "+91 9573986853",
+    "location": "Hyderabad, Telangana",
+    "bio": "Software Engineer at DBS Tech India with expertise in building secure authentication systems and microservices. Specialized in Java, Spring Boot, and cloud technologies, with a proven track record of delivering high-quality solutions that enhance security and performance. Passionate about writing clean, testable code and collaborating with cross-functional teams.",
+    "social": {
+      "github": "https://github.com/sriganesharya",
+      "linkedin": "https://www.linkedin.com/in/sri-ganesh-arya-mahendra-298004203/",
+      "leetcode": "https://leetcode.com/u/sri_ganesh_arya/"
+    }
+  },
+  "skills": {
+    "languages": ["Java", "C++", "Python", "JavaScript", "TypeScript"],
+    "frontend": ["ReactJS", "HTML/CSS", "JavaScript", "TypeScript"],
+    "backend": ["Spring Boot", "Microservices", "API Gateway", "REST APIs", "OAuth2", "JWT"],
+    "databases": ["MySQL", "MariaDB", "MongoDB", "Redis"],
+    "cloud": ["Docker", "OCP", "GCP", "PCF", "Kubernetes"],
+    "tools": ["Jenkins", "BitBucket", "GitHub", "Kafka", "Elastic Search"]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "ENDRA (Enterprise Depiction Radar Tool)",
+      "description": "Built a dashboard for dynamic analysis of systems for Business Managers at DBS Tech by using ReactJS, Java Spring Boot, and MySQL. Used by 50+ teams, with over 400 systems being monitored.",
+      "technologies": ["ReactJS", "Java", "Spring Boot", "MySQL"],
+      "link": "https://example.com",
+      "github": "https://github.com/sriganesharya"
+    },
+    {
+      "id": 2,
+      "title": "Currency Conversion Tool",
+      "description": "Replicated micro-services architecture by deploying API Gateway, Spring Cloud Config Server and Spring Boot services into GCP using Docker and Kubernetes.",
+      "technologies": ["Spring Boot", "Docker", "Kubernetes", "GCP"],
+      "link": "https://example.com",
+      "github": "https://github.com/sriganesharya/Currency-Conversion"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company": "DBS Tech India",
+      "position": "Software Engineer",
+      "period": "Jul 2022 - Present",
+      "achievements": [
+        "Implemented Transaction Signing for high-risk transactions leveraging Java JWT resulting in 100% secure transfers.",
+        "Implemented 3rd Party Sign-In using Spring Oauth2 Authorization resulting in seamless redirection to Partner Websites.",
+        "Collaborated with cross-functional SCRUM teams to implement Stateless and Stateful Sign-In with Session and Token Management using JWKs and Redis Cache.",
+        "Developed Face Verification Authentication for customers using Java and Spring Boot which reduced the login time to 283ms.",
+        "Achieved 40% reduction in the time taken to publish and retrieve data from Log Stash using Kafka and Elastic Search.",
+        "Ensured high-quality deliverables by writing Unit Tests using JUnit for all developed code, resulting in a 60% increase in code coverage."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Computer Science",
+      "institution": "Osmania University",
+      "location": "Hyderabad",
+      "period": "2018 - 2022"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "SQL for Data Science",
+      "url": "https://drive.google.com/file/d/1tZpPPWnqSVZ3SXaUoIPoK68G0NHOjQVq/view?usp=drivesdk"
+    }
+  ],
+  "extra_curricular": [
+    "Active participation in People of Purpose activities with over 40+ hours clocked every year",
+    "Led engagement activities for teams with over 90% participation"
+  ]
+}
