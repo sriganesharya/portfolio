@@ -2,9 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Mail, MapPin } from "lucide-react";
 import portfolioData from "@/data/portfolio.json";
+import { useWordByWord } from "@/hooks/useWordByWord";
 
 export const Contact = () => {
   const { personal } = portfolioData;
+  const contactText = "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.";
+  const { displayedText, elementRef } = useWordByWord(contactText, 40);
 
   return (
     <section id="contact" className="py-20 px-4 bg-gradient-subtle">
@@ -14,8 +17,8 @@ export const Contact = () => {
         </h2>
         
         <Card className="p-8 md:p-12 bg-card border-border shadow-card text-center">
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+          <p ref={elementRef as any} className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto min-h-[56px]">
+            {displayedText}
           </p>
           
           <div className="flex flex-col md:flex-row gap-4 justify-center mb-8">

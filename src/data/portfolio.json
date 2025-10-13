@@ -6,6 +6,7 @@
     "email": "sriganesharya@gmail.com",
     "phone": "+91 9573986853",
     "location": "Hyderabad, Telangana",
+    "profilePhoto": "/IMG_9951.HEIC",
     "bio": "Software Engineer at DBS Tech India with expertise in building secure authentication systems and microservices. Specialized in Java, Spring Boot, and cloud technologies, with a proven track record of delivering high-quality solutions that enhance security and performance. Passionate about writing clean, testable code and collaborating with cross-functional teams.",
     "social": {
       "github": "https://github.com/sriganesharya",
@@ -37,6 +38,14 @@
       "technologies": ["Spring Boot", "Docker", "Kubernetes", "GCP"],
       "link": "https://example.com",
       "github": "https://github.com/sriganesharya/Currency-Conversion"
+    },
+    {
+      "id": 2,
+      "title": "Hospital Appointment Chatbot",
+      "description": "Built a chatbot To schedule hospital appointments based on the requirements using Python Fast API communicating with Gemini 2.5 Pro.",
+      "technologies": ["Python", "FAST API", "Pandas", "Javascript"],
+      "link": "https://example.com",
+      "github": "https://github.com/sriganesharya/appointment_chatbot"
     }
   ],
   "experience": [
@@ -47,8 +56,8 @@
       "period": "Jul 2022 - Present",
       "achievements": [
         "Implemented Transaction Signing for high-risk transactions leveraging Java JWT resulting in 100% secure transfers.",
-        "Implemented 3rd Party Sign-In using Spring Oauth2 Authorization resulting in seamless redirection to Partner Websites.",
-        "Collaborated with cross-functional SCRUM teams to implement Stateless and Stateful Sign-In with Session and Token Management using JWKs and Redis Cache.",
+        "Enabled 3rd Party Sign-In using Spring Oauth2 Authorization resulting in seamless redirection to Partner Websites.",
+        "Collaborated with cross-functional SCRUM teams to implement Stateless and Stateful Sign-In with Sessions using JWKs and Redis Cache.",
         "Developed Face Verification Authentication for customers using Java and Spring Boot which reduced the login time to 283ms.",
         "Achieved 40% reduction in the time taken to publish and retrieve data from Log Stash using Kafka and Elastic Search.",
         "Ensured high-quality deliverables by writing Unit Tests using JUnit for all developed code, resulting in a 60% increase in code coverage."
