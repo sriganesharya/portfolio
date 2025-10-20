@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import portfolioData from "@/data/portfolio.json";
 import { getSkillIcon } from "@/utils/skillIcons";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 export const About = () => {
   const { personal, skills } = portfolioData;
@@ -38,7 +39,7 @@ export const About = () => {
           <div className="relative group">
             <div className="absolute -inset-1 bg-gradient-primary rounded-full blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
             <img
-              src={personal.profilePhoto}
+              src={profilePhoto}
               alt={personal.name}
               className="relative w-48 h-48 rounded-full object-cover border-4 border-card shadow-glow"
             />

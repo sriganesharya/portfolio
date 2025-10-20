@@ -6,7 +6,7 @@
     "email": "sriganesharya@gmail.com",
     "phone": "+91 9573986853",
     "location": "Hyderabad, Telangana",
-    "profilePhoto": "/IMG_9951.HEIC",
+    "profilePhoto": "profile-photo",
     "bio": "Software Engineer at DBS Tech India with expertise in building secure authentication systems and microservices. Specialized in Java, Spring Boot, and cloud technologies, with a proven track record of delivering high-quality solutions that enhance security and performance. Passionate about writing clean, testable code and collaborating with cross-functional teams.",
     "social": {
       "github": "https://github.com/sriganesharya",
@@ -40,7 +40,7 @@
       "github": "https://github.com/sriganesharya/Currency-Conversion"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Hospital Appointment Chatbot",
       "description": "Built a chatbot To schedule hospital appointments based on the requirements using Python Fast API communicating with Gemini 2.5 Pro.",
       "technologies": ["Python", "FAST API", "Pandas", "Javascript"],
