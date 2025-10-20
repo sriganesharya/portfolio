@@ -38,11 +38,20 @@ export const About = () => {
         <div className="mb-12 flex justify-center">
           <div className="relative group">
             <div className="absolute -inset-1 bg-gradient-primary rounded-full blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
-            <img
-              src={profilePhoto}
-              alt={personal.name}
-              className="relative w-48 h-48 rounded-full object-cover border-4 border-card shadow-glow"
-            />
+            <picture>
+              <img
+                src={profilePhoto}
+                alt={`${personal.name} profile photo`}
+                className="relative w-48 h-48 rounded-full object-cover border-4 border-card shadow-glow"
+                width={192}
+                height={192}
+                loading="eager"
+                decoding="async"
+                onError={(e) => {
+                  e.currentTarget.src = '/placeholder.svg';
+                }}
+              />
+            </picture>
           </div>
         </div>
         
