@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import portfolioData from "@/data/portfolio.json";
 import { getSkillIcon } from "@/utils/skillIcons";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/IMG_9951.png";
 
 export const About = () => {
   const { personal, skills } = portfolioData;
