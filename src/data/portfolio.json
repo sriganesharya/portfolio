@@ -55,12 +55,16 @@
       "position": "Software Engineer",
       "period": "Jul 2022 - Present",
       "achievements": [
-        "Implemented Transaction Signing for high-risk transactions leveraging Java JWT resulting in 100% secure transfers.",
-        "Enabled 3rd Party Sign-In using Spring Oauth2 Authorization resulting in seamless redirection to Partner Websites.",
-        "Collaborated with cross-functional SCRUM teams to implement Stateless and Stateful Sign-In with Sessions using JWKs and Redis Cache.",
-        "Developed Face Verification Authentication for customers using Java and Spring Boot which reduced the login time to 283ms.",
-        "Achieved 40% reduction in the time taken to publish and retrieve data from Log Stash using Kafka and Elastic Search.",
-        "Ensured high-quality deliverables by writing Unit Tests using JUnit for all developed code, resulting in a 60% increase in code coverage."
+        "Integrated and optimized third-party OAuth2 authorization with Spring Boot, enabling frictionless authentication for 50K+ monthly users across partner platforms.",
+        "Architected and deployed a secure transaction signing framework using JWT and asymmetric cryptography, eliminating security vulnerabilities and ensuring MAS compliance.",
+        "Developed scalable APIs for authorization using JWE tokens and Redis caching, improving session management efficiency and system resilience.",
+        "Engineered facial verification authentication in Spring Boot, reducing login latency by 65% (from 800ms to 283ms) and accelerating customer on-boarding.",
+        "Developed a FIDO-based authentication for transaction signing, projected to save $20M annually while ensuring robust security for high-volume transactions.",
+        "Optimized Kafka–ElasticSearch APIs, reducing event indexing latency by 40% and improving SLA compliance for 10+ teams.",
+        "Designed and implemented customer elevation APIs, orchestrating Multi-Factor authentication (1FA, 2FA, 3FA) to enforce adaptive risk-based security controls.",
+        "Implemented Username–Password authentication, ensuring secure credential validation, encryption, and session management.",
+        "Orchestrated OTP management enabling secure OTP generation, validation, and expiration handling for two-factor authentication (2FA), to prevent replay attacks.",
+        "Owned and enhanced the IAM Authorization module, driving improvements in access control, token validation, and role-based authorization policies."
       ]
     }
   ],
