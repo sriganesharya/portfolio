@@ -64,7 +64,7 @@ export const About = () => {
             <div className="grid grid-cols-2 gap-4 pt-6 border-t border-border">
               <div className="text-center p-4 bg-secondary/50 rounded-lg border border-primary/20 hover:border-primary/40 transition-all">
                 <div className="text-3xl font-bold text-primary mb-1">4+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
+                <div className="text-sm text-muted-foreground">Years of Experience</div>
               </div>
               
               <div className="text-center p-4 bg-secondary/50 rounded-lg border border-primary/20 hover:border-primary/40 transition-all">
